@@ -1,13 +1,12 @@
-import "./App.css";
-import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer'
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <Navbar/>
-      <Footer/>
-    </>
+    <div className="fluid-container">
+      <Navbar />
+    </div>
   );
 }
 
