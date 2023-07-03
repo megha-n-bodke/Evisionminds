@@ -1,9 +1,12 @@
 import "./App.css";
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
     <>
-      <h1>Evisionminds</h1>
+      <Navbar/>
+      <Footer/>
     </>
   );
 }
