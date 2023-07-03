@@ -12,7 +12,7 @@ const Home = () => {
   };
 
   return (
-    <Carousel activeIndex={activeIndex} onSelect={handleSelect} interval={1000}>
+    <Carousel activeIndex={activeIndex} onSelect={handleSelect} interval={1000} id="home">
       <Carousel.Item>
         <div className="slide slide1">
           <Feature lead1="Synchronization" head="Product Lifecycle Management" lead2="Monitoring" />

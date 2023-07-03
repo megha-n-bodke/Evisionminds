@@ -52,7 +52,7 @@ const Navbar = () => {
               <a className="nav-link active" aria-current="page" href="#career">CAREER</a>
             </li>
             <li className="nav-item py-2">
-              <a className="nav-link active" aria-current="page" href="#contact">CONTACT</a>
+              <a className="nav-link active" id="contact" aria-current="page" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
