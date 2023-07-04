@@ -1,13 +1,16 @@
-// import './App.css';
-
-import Footer from './components/Footer/Footer';
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./containers/Home/Home";
+import Footer from "./components/Footer/Footer.jsx";
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>evisionminds</h1>
+    <div className="fluid-container">
+      <Navbar />
+      <Home />
       <Footer />
-    </>
+    </div>
   );
 }
 
