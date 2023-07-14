@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import Carousel from "react-bootstrap/Carousel";
-import Feature from "../../components/Feature/Feature";
-import "./Home.css";
+import Carousel from 'react-bootstrap/Carousel';
+import Feature from '../../components/Feature/Feature';
+import './Home.css';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
