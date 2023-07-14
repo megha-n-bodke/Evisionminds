@@ -1,0 +1,16 @@
+.address {
+  font-size: 14px;
+}
+
+.company-name {
+  color: #555;
+  font-weight: 550;
+}
+
+.custom-p {
+  line-height: 0.4;
+}
+
+.country {
+  font-weight: 400;
+}

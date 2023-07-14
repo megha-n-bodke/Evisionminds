@@ -12,20 +12,37 @@ const Home = () => {
   };
 
   return (
-    <Carousel activeIndex={activeIndex} onSelect={handleSelect} interval={1000} id="home">
+    <Carousel
+      activeIndex={activeIndex}
+      onSelect={handleSelect}
+      interval={1000}
+      id="home"
+    >
       <Carousel.Item>
         <div className="slide slide1">
-          <Feature lead1="Synchronization" head="Product Lifecycle Management" lead2="Monitoring" />
+          <Feature
+            lead1="Synchronization"
+            head="Product Lifecycle Management"
+            lead2="Monitoring"
+          />
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className="slide slide2">
-          <Feature lead1="data" head="Product Lifecycle Management" lead2="technology" />
+          <Feature
+            lead1="data"
+            head="Product Lifecycle Management"
+            lead2="technology"
+          />
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className="slide slide3">
-          <Feature lead1="people" head="Product Lifecycle Management" lead2="process" />
+          <Feature
+            lead1="people"
+            head="Product Lifecycle Management"
+            lead2="process"
+          />
         </div>
       </Carousel.Item>
       <Carousel.Item>
@@ -33,7 +50,11 @@ const Home = () => {
       </Carousel.Item>
       <Carousel.Item>
         <div className="slide slide5">
-          <Feature lead1="tools" head="Product Lifecycle Management" lead2="methods" />
+          <Feature
+            lead1="tools"
+            head="Product Lifecycle Management"
+            lead2="methods"
+          />
         </div>
       </Carousel.Item>
     </Carousel>
