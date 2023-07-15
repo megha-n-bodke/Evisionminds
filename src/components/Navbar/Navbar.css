@@ -21,29 +21,22 @@ a.nav-link.active:hover {
 }
 
 #contact {
-  padding-bottom: 35%;
+  -webkit-padding-bottom: 150%;
+  -moz-padding-bottom: 120%;
+  padding-bottom: 155%;
 }
 
 @media (min-width: 760px) {
   .container-fluid {
     max-width: 100%;
-    flex-direction: column;
     align-items: flex-start !important;
   }
 
   .container-fluid img {
-    margin-right: 10%;
-    margin-left: 12%;
+    margin-right: 5%;
+    margin-left: 2%;
     padding-top: 10px;
     width: 180px;
-  }
-
-  .navbar-nav {
-    flex-direction: row !important;
-  }
-
-  .navbar-nav .nav-item {
-    margin-left: 10px;
   }
 
   ul.navbar-nav {
@@ -57,19 +50,5 @@ a.nav-link.active:hover {
 
   #contact {
     padding-bottom: 0;
-  }
-
-  li.nav-item a {
-    padding: 41px 14px 5px !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container-fluid {
-    flex-direction: row;
-  }
-
-  li.nav-item a {
-    padding: 14px 14px !important;
   }
 }

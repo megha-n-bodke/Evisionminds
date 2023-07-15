@@ -27,31 +27,22 @@ const Navbar = () => {
         </button>
         <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav my-3">
-            <li className="nav-item py-2">
+            <li className="nav-item py-4 p-md-2 px-4">
               <a className="nav-link active" aria-current="page" href="#home">HOME</a>
             </li>
-            <li className="nav-item py-2">
+            <li className="nav-item py-4 p-md-2 px-4">
               <a className="nav-link active" aria-current="page" href="#about">ABOUT</a>
             </li>
-            <li className="nav-item py-2">
+            <li className="nav-item py-4 p-md-2 px-4">
               <a className="nav-link active" aria-current="page" href="#services">SERVICES</a>
             </li>
-            <li className="nav-item py-2">
+            <li className="nav-item py-4 p-md-2 px-4">
               <a className="nav-link active" aria-current="page" href="#solutions">SOLUTIONS</a>
             </li>
-            <li className="nav-item py-2">
+            <li className="nav-item py-4 p-md-2 px-4">
               <a className="nav-link active" aria-current="page" href="#products">PRODUCTS</a>
             </li>
-            <li className="nav-item py-2">
-              <a className="nav-link active" aria-current="page" href="#videos">VIDEOS</a>
-            </li>
-            <li className="nav-item py-2">
-              <a className="nav-link active" aria-current="page" href="#downloads">DOWNLOADS</a>
-            </li>
-            <li className="nav-item py-2">
-              <a className="nav-link active" aria-current="page" href="#career">CAREER</a>
-            </li>
-            <li className="nav-item py-2">
+            <li className="nav-item py-4 p-md-2 px-4">
               <a className="nav-link active" id="contact" aria-current="page" href="#contact">CONTACT</a>
             </li>
           </ul>
