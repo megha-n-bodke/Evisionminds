@@ -30,3 +30,30 @@
   background-image: url('../../assets/Slide_5.jpg');
   background-size: cover;
 }
+
+@media (max-width: 960px) {
+  .slide {
+    height: 70vh;
+  }
+  .slide1,
+  .slide2,
+  .slide3,
+  .slide4,
+  .slide5 {
+    background-size: 960px 1200px;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 460px) {
+  .slide {
+    height: 50vh;
+  }
+  .slide1,
+  .slide2,
+  .slide3,
+  .slide4,
+  .slide5 {
+    background-size: 500px 600px;
+    background-repeat: no-repeat;
+  }
+}
