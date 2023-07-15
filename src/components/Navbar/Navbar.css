@@ -27,12 +27,12 @@ a.nav-link.active:hover {
 }
 
 @media (min-width: 760px) {
-  .container-fluid {
+  .cFluid {
     max-width: 100%;
     align-items: flex-start !important;
   }
 
-  .container-fluid img {
+  .cFluid img {
     margin-right: 5%;
     margin-left: 2%;
     padding-top: 10px;
